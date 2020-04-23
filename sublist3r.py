@@ -26,6 +26,7 @@ import requests
 if sys.version > '3':
     import urllib.parse as urlparse
     import urllib.parse as urllib
+    unicode = str
 else:
     import urlparse
     import urllib
