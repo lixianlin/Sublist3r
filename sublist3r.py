@@ -988,9 +988,9 @@ def main(domain, threads, savefile, ports, silent, verbose, enable_bruteforce, e
             pscan = portscan(subdomains, ports)
             pscan.run()
 
-        elif not silent:
-            for subdomain in subdomains:
-                print(G + subdomain + W)
+        #elif not silent:
+        #    for subdomain in subdomains:
+        #        print(G + subdomain + W)
     return subdomains
 
 
